@@ -1,0 +1,24 @@
+# Blender 4.3.0 MTL File: 'None'
+# www.blender.org
+
+newmtl lambert14SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Vivi_Diffuse.png
+map_Ks Vivi_spec.png
+map_Bump Vivi_nor.png
+
+newmtl lambert16SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Floor.png
+map_Ks Floor_spec.png
+map_Bump Floor_nor.png

@@ -1,0 +1,57 @@
+# Blender 4.3.0 MTL File: 'None'
+# www.blender.org
+
+newmtl Floor_Scene
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Uv_Cenario_Floor_Arte_RGB_1200dpi.png
+map_Ks textures/Uv_Cenario_Floor_Arte_RGB_1200dpi_spec.png
+map_Bump textures/Uv_Cenario_Floor_Arte_RGB_1200dpi_nor.png
+
+newmtl Fran_Pose_01_02:FRAN_BODY
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/UV_Fran_Body_Arte_RGB_2000dpi.png
+map_Ks textures/UV_Fran_Body_Arte_RGB_2000dpi_spec.png
+map_Bump textures/UV_Fran_Body_Arte_RGB_2000dpi_nor.png
+
+newmtl Fran_Pose_01_02:FRAN_HEAD
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/UV_Fran_Head_Arte_RGB_1200dpi.png
+map_Ks textures/UV_Fran_Head_Arte_RGB_1200dpi_spec.png
+map_Bump textures/UV_Fran_Head_Arte_RGB_1200dpi_nor.png
+
+newmtl lambert11
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Uv_Cenario_Alphas_Arte_RGB_1200dpi.png
+map_Ks textures/Uv_Cenario_Alphas_Arte_RGB_1200dpi_spec.png
+map_Bump textures/Uv_Cenario_Alphas_Arte_RGB_1200dpi_nor.png
+
+newmtl lambert6
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Uv_Cenario_Pilars_Arte_RGB_1200dpi.png
+map_Ks textures/Uv_Cenario_Pilars_Arte_RGB_1200dpi_spec.png
+map_Bump textures/Uv_Cenario_Pilars_Arte_RGB_1200dpi_nor.png

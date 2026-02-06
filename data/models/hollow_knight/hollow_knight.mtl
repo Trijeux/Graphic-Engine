@@ -1,0 +1,211 @@
+# Blender 4.3.0 MTL File: 'None'
+# www.blender.org
+
+newmtl Cape
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Cape_dif.png
+map_Ks textures/Cape_spec.png
+#map_Bump textures/Cape_nor.png
+
+newmtl Flowers
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/default_dif.png
+map_Ks textures/default_spec.png
+#map_Bump textures/default_nor.png
+
+newmtl Material.001
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Material.001_dif.png
+map_Ks textures/Material.001_spec.png
+#map_Bump textures/Material.001_nor.png
+
+newmtl Needle.001
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Needle.001_dif.png
+map_Ks textures/Needle.001_spec.png
+#map_Bump textures/Needle.001_nor.png
+
+newmtl Orbs
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Orbs_dif.png
+map_Ks textures/Orbs_spec.png
+#map_Bump textures/Orbs_nor.png
+
+newmtl Tenticles
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Tenticles_dif.png
+map_Ks textures/Tenticles_spec.png
+#map_Bump textures/Tenticles_nor.png
+
+newmtl Tenticles_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Tenticles_dif.png
+map_Ks textures/Tenticles_spec.png
+#map_Bump textures/Tenticles_nor.png
+
+newmtl bug_knight_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Material.001_dif.png
+map_Ks textures/Material.001_spec.png
+#map_Bump textures/Material.001_nor.png
+
+newmtl cape_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Cape_dif.png
+map_Ks textures/Cape_spec.png
+#map_Bump textures/Cape_nor.png
+
+newmtl needle_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Needle.001_dif.png
+map_Ks textures/Needle.001_spec.png
+#map_Bump textures/Needle.001_nor.png
+
+newmtl plant
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/plant_dif.png
+map_Ks textures/plant_spec.png
+#map_Bump textures/plant_nor.png
+
+newmtl plant_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/plant_dif.png
+map_Ks textures/plant_spec.png
+#map_Bump textures/plant_nor.png
+
+newmtl platform
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/platform_dif.png
+map_Ks textures/platform_spec.png
+#map_Bump textures/platform_nor.png
+
+newmtl rocks
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/rocks_dif.png
+map_Ks textures/rocks_spec.png
+#map_Bump textures/rocks_nor.png
+
+newmtl rocks2
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/rocks_dif.png
+map_Ks textures/rocks_spec.png
+#map_Bump textures/rocks_nor.png
+
+newmtl rocks2_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/rocks_dif.png
+map_Ks textures/rocks_spec.png
+#map_Bump textures/rocks_nor.png
+
+newmtl rocks_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/rocks_dif.png
+map_Ks textures/rocks_spec.png
+#map_Bump textures/rocks_nor.png
+
+newmtl vines
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/vines_dif.png
+map_Ks textures/vines_spec.png
+#map_Bump textures/vines_nor.png
+
+newmtl vines_shader
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/vines_dif.png
+map_Ks textures/vines_spec.png
+#map_Bump textures/vines_nor.png

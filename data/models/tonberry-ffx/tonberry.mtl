@@ -1,0 +1,35 @@
+# Blender 4.3.0 MTL File: 'None'
+# www.blender.org
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ffx0000.png
+map_Ks ffx0000_spec.png
+map_Bump ffx0000_nor.png
+
+newmtl mat000
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ffx0000.png
+map_Ks ffx0000_spec.png
+map_Bump ffx0000_nor.png
+
+newmtl mat001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ffx0001.png
+map_Ks ffx0001_spec.png
+map_Bump ffx0001_nor.png

@@ -1,0 +1,15 @@
+#version 300 es
+precision mediump float;
+
+layout (location = 0) in vec2 inPos;
+layout (location = 1) in vec2 inUv;
+layout (location = 2) in vec3 inColor;
+
+out vec2 fragUv;
+out vec3 fragColor;
+
+void main() {
+    gl_Position = vec4(inPos, 0.0, 1.0);
+    fragUv = inUv;
+    fragColor = inColor;
+}

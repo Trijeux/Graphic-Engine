@@ -1,0 +1,62 @@
+# Blender 4.3.0 MTL File: 'None'
+# www.blender.org
+
+newmtl mat000.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ffx0003.png
+map_Ks ffx0003_spec.png
+map_Bump ffx0003_nor.png
+
+newmtl mat001.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ffx0000.png
+map_Ks ffx0000_spec.png
+map_Bump ffx0000_nor.png
+
+newmtl mat002.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ffx0002.png
+map_Ks ffx0002_spec.png
+map_Bump ffx0002_nor.png
+
+newmtl mat003.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ffx0002.png
+map_Ks ffx0002_spec.png
+map_Bump ffx0002_nor.png
+
+newmtl mat004.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd ffx0005.png
+map_Ks ffx0005_spec.png
+map_Bump ffx0005_nor.png
