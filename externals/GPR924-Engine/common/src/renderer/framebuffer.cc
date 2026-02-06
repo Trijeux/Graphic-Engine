@@ -64,7 +64,7 @@ void Framebuffer::Load(const FramebufferCreateInfo& info) {
     if (!color_attachment_info.is_active) {
       continue;
     }
-    if (is_depth_or_depth_stencil_format(color_attachment_info.internal_format)) {
+    if (is_depth_or_depth_stencil_format(static_cast<GLuint>(color_attachment_info.internal_format))) {
       throw std::invalid_argument("Color attachment is not supposed to be a depth or depth-stencil format");
     }
     auto& color_attachment = get().color_attachments[i];
@@ -75,7 +75,7 @@ void Framebuffer::Load(const FramebufferCreateInfo& info) {
     glFramebufferTexture2D(GL_FRAMEBUFFER, color_attachment_index,
                            color_attachment_info.target,
                            color_attachment->texture_name, 0);
-    color_attachment_buffers[attachment_index] = color_attachment_index;
+    color_attachment_buffers[static_cast<size_t>(attachment_index)] = color_attachment_index;
     attachment_index++;
   }
   if (attachment_index == 0) {
@@ -99,7 +99,7 @@ void Framebuffer::Load(const FramebufferCreateInfo& info) {
     } else {
       Texture depth_stencil_texture;
       depth_stencil_texture.Create(depth_attachment_info.target, framebuffer_create_info_.size.x,
-        framebuffer_create_info_.size.y, depth_attachment_info.internal_format);
+        framebuffer_create_info_.size.y, static_cast<GLint>(depth_attachment_info.internal_format));
       get().depth_stencil_attachment = std::move(depth_stencil_texture);
     }
   }
@@ -136,7 +136,7 @@ void Framebuffer::Reload(core::Vec2I newSize) {
   Load(framebuffer_create_info_);
 }
 const Texture& Framebuffer::GetColorAttachment(int index) {
-  return get().color_attachments[index];
+  return get().color_attachments[static_cast<size_t>(index)];
 }
 const Texture& Framebuffer::GetDepthAttachment() {
   //if you throw here, it means you forgot to put the depth-stencil is_rbo as false...

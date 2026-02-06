@@ -44,7 +44,7 @@ class Final_Scene final : public common::SystemInterface,
   const std::array<std::string, 3> modelMulti = {
       "data/models/final_fantasy_7_buster_sword/Sword_FF.obj",
       "data/models/gunblade-from-ffviii/Gun_Blade.obj",
-      "data/models/hollow-knighthigh-poly/hollow knight(high poly).obj",
+      "data/models/hollow-knighthigh-poly/hollow knight high poly.obj",
   };
 
   const std::array<glm::vec3, 8> posSoul = {
